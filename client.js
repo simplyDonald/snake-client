@@ -6,7 +6,7 @@ const connect = function () {
   });
   conn.on('connect',()=>{
     console.log("Successfully connected to game server")
-    conn.write("Name: LOL");
+    conn.write("Name: FBI");
     // conn.write("Move: up")
   });
   // setInterval(() => {
